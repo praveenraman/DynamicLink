@@ -1,5 +1,5 @@
 # DynamicLink
 Deep Linking with Firebase Dynamic Link 
 
-https://buildfire.com/what-is-deep-linking/
+https://iosdeveloperlive.blogspot.com/2020/10/deep-linking-what-allow-user-deep.html
 
