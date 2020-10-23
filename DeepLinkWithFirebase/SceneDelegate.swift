@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseDynamicLinks
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -46,7 +48,48 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to save data, release shared resources, and store enough scene-specific state information
         // to restore the scene back to its current state.
     }
+    func handelIncomingDynamicLink(_dynamicLink: DynamicLink) {
+        guard let url = _dynamicLink.url else {
+            print("That is weird. my dynamic link object has no url")
+            return
+        }
+        print("SceneDelegate your incoming link perameter is \(url.absoluteString)")
+        guard let components = URLComponents(url: url, resolvingAgainstBaseURL: false), let queryItems = components.queryItems else {
+            return
+        }
+        for queryItem in queryItems {
+            print("Parameter:- \(queryItem.name) has a value:-  \(queryItem.value ?? "") ")
+        }
+        _dynamicLink.matchType
+    }
+    
+    func scene(_ scene: UIScene, continue userActivity: NSUserActivity) {
+        if let incomingURL = userActivity.webpageURL{
+            print("Incoming URL is \(incomingURL)")
+            let linkHandled = DynamicLinks.dynamicLinks().handleUniversalLink(incomingURL) { (dynamicLink, error) in
+                guard error == nil else{
+                    print("Found an error \(error!.localizedDescription)")
+                    return
+                }
+                if dynamicLink == dynamicLink{
+                    self.handelIncomingDynamicLink(_dynamicLink: dynamicLink!)
+                }
+            }
+            print(linkHandled)
+        }
+    }
+    
+    func scene(_ scene: UIScene, openURLContexts URLContexts: Set<UIOpenURLContext>) {
+        if let url = URLContexts.first?.url{
+            print("url:-   \(url)")
+        if let dynamicLink = DynamicLinks.dynamicLinks().dynamicLink(fromCustomSchemeURL: url){
+                 self.handelIncomingDynamicLink(_dynamicLink: dynamicLink)
+                 //return true
+            } else{
+             // maybe handel Google and firebase
+             print("False")
+            }
 
-
+        }
+    }
 }
-

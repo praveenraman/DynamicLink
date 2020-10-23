@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,10 @@
 		18D4744C254192BE00B7799F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D4744A254192BE00B7799F /* LaunchScreen.storyboard */; };
 		18D47457254192BE00B7799F /* DeepLinkWithFirebaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D47456254192BE00B7799F /* DeepLinkWithFirebaseTests.swift */; };
 		18D47462254192BE00B7799F /* DeepLinkWithFirebaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D47461254192BE00B7799F /* DeepLinkWithFirebaseUITests.swift */; };
+		18D474732541955B00B7799F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18D474722541955B00B7799F /* GoogleService-Info.plist */; };
+		42FA3A4DD5CBFD9AC7542435 /* Pods_DeepLinkWithFirebaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41F13ADA478DE98C9C2812B8 /* Pods_DeepLinkWithFirebaseTests.framework */; };
+		4B2DDC1D81E4440AF048C3A3 /* Pods_DeepLinkWithFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56734A28C85479F9BE979D32 /* Pods_DeepLinkWithFirebase.framework */; };
+		81AEFE8A597D634AF3AFDB08 /* Pods_DeepLinkWithFirebase_DeepLinkWithFirebaseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B9C377F010508921C6CCEF /* Pods_DeepLinkWithFirebase_DeepLinkWithFirebaseUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,17 @@
 		18D4745D254192BE00B7799F /* DeepLinkWithFirebaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeepLinkWithFirebaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D47461254192BE00B7799F /* DeepLinkWithFirebaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkWithFirebaseUITests.swift; sourceTree = "<group>"; };
 		18D47463254192BE00B7799F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D474722541955B00B7799F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		18D47477254198E300B7799F /* DeepLinkWithFirebase.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DeepLinkWithFirebase.entitlements; sourceTree = "<group>"; };
+		23B9C377F010508921C6CCEF /* Pods_DeepLinkWithFirebase_DeepLinkWithFirebaseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeepLinkWithFirebase_DeepLinkWithFirebaseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41F13ADA478DE98C9C2812B8 /* Pods_DeepLinkWithFirebaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeepLinkWithFirebaseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A5570C0994923C705C67B12 /* Pods-DeepLinkWithFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepLinkWithFirebase.release.xcconfig"; path = "Target Support Files/Pods-DeepLinkWithFirebase/Pods-DeepLinkWithFirebase.release.xcconfig"; sourceTree = "<group>"; };
+		56734A28C85479F9BE979D32 /* Pods_DeepLinkWithFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeepLinkWithFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70B9AC994FA79C87797F7B4F /* Pods-DeepLinkWithFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepLinkWithFirebase.debug.xcconfig"; path = "Target Support Files/Pods-DeepLinkWithFirebase/Pods-DeepLinkWithFirebase.debug.xcconfig"; sourceTree = "<group>"; };
+		C92841AF5F2DB2101F8459A0 /* Pods-DeepLinkWithFirebase-DeepLinkWithFirebaseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepLinkWithFirebase-DeepLinkWithFirebaseUITests.debug.xcconfig"; path = "Target Support Files/Pods-DeepLinkWithFirebase-DeepLinkWithFirebaseUITests/Pods-DeepLinkWithFirebase-DeepLinkWithFirebaseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBBC14D300E7BF98E88B60CA /* Pods-DeepLinkWithFirebaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepLinkWithFirebaseTests.release.xcconfig"; path = "Target Support Files/Pods-DeepLinkWithFirebaseTests/Pods-DeepLinkWithFirebaseTests.release.xcconfig"; sourceTree = "<group>"; };
+		FA9FE23E289A282584F7CF47 /* Pods-DeepLinkWithFirebaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepLinkWithFirebaseTests.debug.xcconfig"; path = "Target Support Files/Pods-DeepLinkWithFirebaseTests/Pods-DeepLinkWithFirebaseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FCD942BBAFCAA8DAB6D1D9B4 /* Pods-DeepLinkWithFirebase-DeepLinkWithFirebaseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepLinkWithFirebase-DeepLinkWithFirebaseUITests.release.xcconfig"; path = "Target Support Files/Pods-DeepLinkWithFirebase-DeepLinkWithFirebaseUITests/Pods-DeepLinkWithFirebase-DeepLinkWithFirebaseUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B2DDC1D81E4440AF048C3A3 /* Pods_DeepLinkWithFirebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42FA3A4DD5CBFD9AC7542435 /* Pods_DeepLinkWithFirebaseTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81AEFE8A597D634AF3AFDB08 /* Pods_DeepLinkWithFirebase_DeepLinkWithFirebaseUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +101,8 @@
 				18D47455254192BE00B7799F /* DeepLinkWithFirebaseTests */,
 				18D47460254192BE00B7799F /* DeepLinkWithFirebaseUITests */,
 				18D4743D254192A200B7799F /* Products */,
+				37A8629883D65F6D28675DC7 /* Pods */,
+				8D42FD781DF8D2FEE9525E1B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +119,8 @@
 		18D4743E254192A200B7799F /* DeepLinkWithFirebase */ = {
 			isa = PBXGroup;
 			children = (
+				18D47477254198E300B7799F /* DeepLinkWithFirebase.entitlements */,
+				18D474722541955B00B7799F /* GoogleService-Info.plist */,
 				18D4743F254192A200B7799F /* AppDelegate.swift */,
 				18D47441254192A200B7799F /* SceneDelegate.swift */,
 				18D47443254192A200B7799F /* ViewController.swift */,
@@ -128,6 +150,29 @@
 			path = DeepLinkWithFirebaseUITests;
 			sourceTree = "<group>";
 		};
+		37A8629883D65F6D28675DC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70B9AC994FA79C87797F7B4F /* Pods-DeepLinkWithFirebase.debug.xcconfig */,
+				4A5570C0994923C705C67B12 /* Pods-DeepLinkWithFirebase.release.xcconfig */,
+				C92841AF5F2DB2101F8459A0 /* Pods-DeepLinkWithFirebase-DeepLinkWithFirebaseUITests.debug.xcconfig */,
+				FCD942BBAFCAA8DAB6D1D9B4 /* Pods-DeepLinkWithFirebase-DeepLinkWithFirebaseUITests.release.xcconfig */,
+				FA9FE23E289A282584F7CF47 /* Pods-DeepLinkWithFirebaseTests.debug.xcconfig */,
+				CBBC14D300E7BF98E88B60CA /* Pods-DeepLinkWithFirebaseTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8D42FD781DF8D2FEE9525E1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56734A28C85479F9BE979D32 /* Pods_DeepLinkWithFirebase.framework */,
+				23B9C377F010508921C6CCEF /* Pods_DeepLinkWithFirebase_DeepLinkWithFirebaseUITests.framework */,
+				41F13ADA478DE98C9C2812B8 /* Pods_DeepLinkWithFirebaseTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18D47466254192BF00B7799F /* Build configuration list for PBXNativeTarget "DeepLinkWithFirebase" */;
 			buildPhases = (
+				DFC742EF9BB2C828159706CF /* [CP] Check Pods Manifest.lock */,
 				18D47438254192A200B7799F /* Sources */,
 				18D47439254192A200B7799F /* Frameworks */,
 				18D4743A254192A200B7799F /* Resources */,
+				401CD80661613A1137055EB9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18D47469254192BF00B7799F /* Build configuration list for PBXNativeTarget "DeepLinkWithFirebaseTests" */;
 			buildPhases = (
+				3BB771399382D27D3C996034 /* [CP] Check Pods Manifest.lock */,
 				18D4744E254192BE00B7799F /* Sources */,
 				18D4744F254192BE00B7799F /* Frameworks */,
 				18D47450254192BE00B7799F /* Resources */,
@@ -170,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18D4746C254192BF00B7799F /* Build configuration list for PBXNativeTarget "DeepLinkWithFirebaseUITests" */;
 			buildPhases = (
+				2DA5B119F9360AC7021130F2 /* [CP] Check Pods Manifest.lock */,
 				18D47459254192BE00B7799F /* Sources */,
 				18D4745A254192BE00B7799F /* Frameworks */,
 				18D4745B254192BE00B7799F /* Resources */,
+				D6169BAFDEE327C8F632DD88 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18D4744C254192BE00B7799F /* LaunchScreen.storyboard in Resources */,
+				18D474732541955B00B7799F /* GoogleService-Info.plist in Resources */,
 				18D47449254192BE00B7799F /* Assets.xcassets in Resources */,
 				18D47447254192A200B7799F /* Main.storyboard in Resources */,
 			);
@@ -252,6 +303,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DA5B119F9360AC7021130F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DeepLinkWithFirebase-DeepLinkWithFirebaseUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BB771399382D27D3C996034 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DeepLinkWithFirebaseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		401CD80661613A1137055EB9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeepLinkWithFirebase/Pods-DeepLinkWithFirebase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeepLinkWithFirebase/Pods-DeepLinkWithFirebase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DeepLinkWithFirebase/Pods-DeepLinkWithFirebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6169BAFDEE327C8F632DD88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeepLinkWithFirebase-DeepLinkWithFirebaseUITests/Pods-DeepLinkWithFirebase-DeepLinkWithFirebaseUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeepLinkWithFirebase-DeepLinkWithFirebaseUITests/Pods-DeepLinkWithFirebase-DeepLinkWithFirebaseUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DeepLinkWithFirebase-DeepLinkWithFirebaseUITests/Pods-DeepLinkWithFirebase-DeepLinkWithFirebaseUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFC742EF9BB2C828159706CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DeepLinkWithFirebase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		18D47438254192A200B7799F /* Sources */ = {
@@ -433,9 +587,12 @@
 		};
 		18D47467254192BF00B7799F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70B9AC994FA79C87797F7B4F /* Pods-DeepLinkWithFirebase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DeepLinkWithFirebase/DeepLinkWithFirebase.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z7VEURMV45;
 				INFOPLIST_FILE = DeepLinkWithFirebase/Info.plist;
@@ -445,6 +602,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.DeepLinkWithFirebase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,9 +610,12 @@
 		};
 		18D47468254192BF00B7799F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A5570C0994923C705C67B12 /* Pods-DeepLinkWithFirebase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DeepLinkWithFirebase/DeepLinkWithFirebase.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z7VEURMV45;
 				INFOPLIST_FILE = DeepLinkWithFirebase/Info.plist;
@@ -464,6 +625,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.DeepLinkWithFirebase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -471,6 +633,7 @@
 		};
 		18D4746A254192BF00B7799F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA9FE23E289A282584F7CF47 /* Pods-DeepLinkWithFirebaseTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +656,7 @@
 		};
 		18D4746B254192BF00B7799F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBBC14D300E7BF98E88B60CA /* Pods-DeepLinkWithFirebaseTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +679,7 @@
 		};
 		18D4746D254192BF00B7799F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C92841AF5F2DB2101F8459A0 /* Pods-DeepLinkWithFirebase-DeepLinkWithFirebaseUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +700,7 @@
 		};
 		18D4746E254192BF00B7799F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCD942BBAFCAA8DAB6D1D9B4 /* Pods-DeepLinkWithFirebase-DeepLinkWithFirebaseUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

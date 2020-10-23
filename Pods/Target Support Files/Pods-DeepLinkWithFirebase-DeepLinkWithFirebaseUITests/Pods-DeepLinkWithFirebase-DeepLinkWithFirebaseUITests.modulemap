@@ -1,0 +1,6 @@
+framework module Pods_DeepLinkWithFirebase_DeepLinkWithFirebaseUITests {
+  umbrella header "Pods-DeepLinkWithFirebase-DeepLinkWithFirebaseUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
